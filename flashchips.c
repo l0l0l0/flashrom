@@ -11988,7 +11988,7 @@ const struct flashchip flashchips[] = {
 		.name		= "MX66U1G45G",
 		.bustype	= BUS_SPI,
 		.manufacture_id	= MACRONIX_ID,
-		.model_id	= MACRONIX_MX66U2G45G,
+		.model_id	= MACRONIX_MX66U1G45G,
 		.total_size	= 131072,
 		.page_size	= 256,
 		/* OTP: 512B total; enter 0xB1, exit 0xC1 */
