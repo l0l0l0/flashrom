@@ -12059,7 +12059,7 @@ const struct flashchip flashchips[] = {
 		.printlock	= SPI_PRETTYPRINT_STATUS_REGISTER_BP3_SRWD, /* bit6 is quad enable */
 		.unlock		= SPI_DISABLE_BLOCKPROTECT_BP3_SRWD,
 		.write		= SPI_CHIP_WRITE256,
-		.read		= SPI_CHIP_READ_QUADIO, /* a tester SPI_CHIP_READ_QUADIO */
+		.read		= SPI_CHIP_READ, /* a tester SPI_CHIP_READ_QUADIO */
 		.voltage	= {1650, 1950},
 	},
 
